@@ -3,7 +3,7 @@
 int power(int b, int e){
   int result=1;
 
-  for (int i = 1; i <= e; i++){
+  for (int i = 0; i < e; i++){
     int aux = result*b;
     result = aux;
   }
